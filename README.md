@@ -59,7 +59,7 @@ xchain-monitor是用来监控[xuperunion](https://github.com/xuperchain/xuperuni
   - 机器整体Memory消耗情况
   
   
-## 仪表(Dashboard)盘截图
+## 仪表盘(Dashboard)截图
 
 节点业务相关信息监控
 ![xchain-node-info](https://github.com/ToWorld/xuperchain-image/blob/master/xchain-node-info.png)
