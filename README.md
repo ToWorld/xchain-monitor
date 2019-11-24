@@ -51,9 +51,9 @@ xchain-monitor是用来监控[xuperunion](https://github.com/xuperchain/xuperuni
 * 连接数
   - 节点当前连接数；
   
-  ### 机器相关监控（TODO）
+### 机器相关监控（TODO）
   
-  * CPU
-    - 机器整体CPU消耗情况
-  * Memory
-    - 机器整体Memory消耗情况
+* CPU
+  - 机器整体CPU消耗情况
+* Memory
+  - 机器整体Memory消耗情况
