@@ -5,7 +5,7 @@ xchain-monitor是用来监控[xuperunion](https://github.com/xuperchain/xuperuni
 -----------
 ## 监控指标，如下：
 
-### 业务相关监控
+### 业务相关信息监控
 
 * TrunkHeight
   - 节点当前最新区块高度；采用Graph表示；
@@ -32,7 +32,7 @@ xchain-monitor是用来监控[xuperunion](https://github.com/xuperchain/xuperuni
 * AverageLatency
   - 系统平均延时；采用Graph表示；
   
-### 进程相关监控（TODO）
+### 进程相关信息监控（TODO）
 
 * CPU
   - 节点当前CPU消耗情况；
@@ -51,7 +51,7 @@ xchain-monitor是用来监控[xuperunion](https://github.com/xuperchain/xuperuni
 * 连接数
   - 节点当前连接数；
   
-### 机器相关监控（TODO）
+### 机器相关信息监控（TODO）
   
 * CPU
   - 机器整体CPU消耗情况
