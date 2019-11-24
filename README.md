@@ -67,4 +67,4 @@ xchain-monitor是用来监控[xuperunion](https://github.com/xuperchain/xuperuni
 
 ## 许可证
 
-XuperUnion使用的许可证是Apache 2.0
+xchain-monitor使用的许可证是Apache 2.0
