@@ -40,7 +40,7 @@ xchain-monitor是用来监控[xuperunion](https://github.com/xuperchain/xuperuni
   - 节点当前Mem消耗情况；
 * Disk
   - 节点当前Disk消耗情况；
-* File description
+* File descriptor
   - 节点当前文件描述符使用情况；
 * IO
   - 节点当前IO消耗情况；
@@ -50,3 +50,10 @@ xchain-monitor是用来监控[xuperunion](https://github.com/xuperchain/xuperuni
   - 节点当前go routine消耗情况；
 * 连接数
   - 节点当前连接数；
+  
+  ### 机器相关监控（TODO）
+  
+  * CPU
+    - 机器整体CPU消耗情况
+  * Memory
+    - 机器整体Memory消耗情况
