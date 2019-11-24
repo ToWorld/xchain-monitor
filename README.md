@@ -31,3 +31,22 @@ xchain-monitor是用来监控[xuperunion](https://github.com/xuperchain/xuperuni
   - 系统当前ledger最新区块ID；
 * AverageLatency
   - 系统平均延时；采用Graph表示；
+  
+### 进程相关监控（TODO）
+
+* CPU
+  - 节点当前CPU消耗情况；
+* Memory
+  - 节点当前Mem消耗情况；
+* Disk
+  - 节点当前Disk消耗情况；
+* File description
+  - 节点当前文件描述符使用情况；
+* IO
+  - 节点当前IO消耗情况；
+* 网络带宽
+  - 节点当前网络带宽消耗情况；
+* go routine
+  - 节点当前go routine消耗情况；
+* 连接数
+  - 节点当前连接数；
