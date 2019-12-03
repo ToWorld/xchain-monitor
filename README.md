@@ -3,6 +3,7 @@
 xchain-monitor是用来监控[xuperunion](https://github.com/xuperchain/xuperunion)区块链系统运行状态(包括机器、节点进程、节点业务信息)的开源监控系统。
 
 -----------
+
 ## 监控指标，如下：
 
 ### 业务相关信息监控
@@ -68,3 +69,22 @@ xchain-monitor是用来监控[xuperunion](https://github.com/xuperchain/xuperuni
 ## 许可证
 
 xchain-monitor使用的许可证是Apache 2.0
+
+------------------
+
+## 安装
+
+### 启动agent
+
+* 启动xchain-httpgw  
+
+nohup ./xchain-httpgw --gateway_endpoint localhost:6718 --http_endpoint :8097 &
+其中，--gateway_endpoint为xchain对外rpc端口，http_endpoint为xchain-httpgw为对外服务访问端口
+
+* 启动fetch_xchain_node_info.py
+
+* 启动prometheus 
+
+./prometheus --config.file=./prometheus.yaml --web.listen-address="0.0.0.0:8090"
+
+* 启动grafana
