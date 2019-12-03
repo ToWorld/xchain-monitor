@@ -74,6 +74,10 @@ xchain-monitor使用的许可证是Apache 2.0
 
 ## 安装
 
+### 前置条件
+
+* Python
+
 ### 启动agent
 
 * 启动xchain-httpgw  
