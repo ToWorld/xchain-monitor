@@ -86,6 +86,7 @@ xchain-monitor使用的许可证是Apache 2.0
 ```
 python fetch_xchain_node_info.py
 ```
+### 启动server
 
 * 启动prometheus 
 ```
