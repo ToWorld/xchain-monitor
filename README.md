@@ -78,8 +78,8 @@ xchain-monitor使用的许可证是Apache 2.0
 
 * 启动xchain-httpgw  
 
-nohup ./xchain-httpgw --gateway_endpoint localhost:6718 --http_endpoint :8097 &
-其中，--gateway_endpoint为xchain对外rpc端口，http_endpoint为xchain-httpgw为对外服务访问端口
+> nohup ./xchain-httpgw --gateway_endpoint localhost:6718 --http_endpoint :8097 &
+> 其中，--gateway_endpoint为xchain对外rpc端口，http_endpoint为xchain-httpgw为对外服务访问端口
 
 * 启动fetch_xchain_node_info.py
 
